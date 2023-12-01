@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/HTML_CSS/HW5/pic/man-7750139_1280.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* ------------- header ------------------- */
+
+header{
+    min-height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 80px 0px 0px;
+}
+
+header nav{
+    color: black;
+    font-weight: 400;
+}
+
+/* ------------- Construction ----------- */
+
+.construction{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.construction p{
+    padding-top: 16px;
+    font-size: 12px;
+}
+
+/* ------------- main ----------- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10vh;
+}
+
+main .box{
+    border: 1px solid rgba(0, 0, 0, 0.352);
+    width: 300px;
+    height: 12px;
+}
+
+main .box2{
+    width: 75%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+main .percent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+/* ------------- Notify ----------- */
+
+.notify{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 7vh;
+}
+
+.notify button{
+    padding: 4px 16px;
+    background-color: whitesmoke;
+    border-color: white;
+}
+
+/* ------------- contact ----------- */
+
+.contact{
+    min-height: 38vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact i{
+    font-size: 150%;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid;
+    border-radius: 50%;
+    margin: 0px 7px 7px 7px;
+}
+
+/* ------------- footer ----------- */
+
+footer{
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid whitesmoke;
+    
+}
+
+footer p{
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 15px;  
+}
